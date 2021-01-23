@@ -1,0 +1,29 @@
+//
+// === Colors ===
+//
+
+// Basic schema
+$primary: #c6bfbc;
+$primaryVeryLight: lighten($primary, 20%);
+$primaryLight: lighten($primary, 10%);
+$primaryDark: darken($primary, 10%);
+$primaryVeryDark: darken($primary, 20%);
+
+$success: #16a085;
+$successHover: lighten($success, 10%);
+
+$warning: #c0392b;
+$warningHover: lighten($warning, 10%);
+
+$primaryText: #3e5871;
+$secondaryText: lighten($primaryText, 30%);
+
+$pageBackground: #fffbf7;
+
+$flickrPink: #fe0084;
+$flickrBlue: #256ed7;
+
+$shadow: 0 10px 12px -7px $primaryDark, -4px 0 12px -7px $primaryDark,
+  4px 0 12px -7px $primaryDark;
+
+$font: 62.5%/1.4 Arial, Verdana sans-serif;

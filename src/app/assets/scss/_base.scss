@@ -1,0 +1,106 @@
+* {
+  :before,
+  :after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  background-color: $pageBackground;
+  color: $primaryText;
+  font: $font;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+label,
+span,
+li {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  color: $primaryText;
+}
+
+button {
+  font-size: 1.6rem;
+}
+
+button,
+a {
+  &:focus {
+    outline: 3px solid #7c7ed8;
+  }
+
+  &:active {
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font: 55%/1.4 Arial, Verdana sans-serif;
+  }
+}
